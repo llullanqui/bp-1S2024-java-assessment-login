@@ -1,0 +1,5 @@
+jwt:
+  token:
+    secret: uixayhdfouaihdvoquniuhxchiojdaiosjd2uh3412b54asdhasjkdhasjkh128jkjkh
+    validHours: 5
+
