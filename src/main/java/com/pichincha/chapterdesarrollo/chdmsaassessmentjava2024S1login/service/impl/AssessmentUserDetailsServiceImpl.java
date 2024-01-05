@@ -20,7 +20,7 @@ public class AssessmentUserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        AssessmentUser user = repository.findByUser(username)
+        AssessmentUser user = repository.findByUsername(username)
                 .orElseThrow(() -> new UsernameNotFoundException(Constants.USERNAME_NOT_FOUND_MESSAGE));
 
         return User.builder()
