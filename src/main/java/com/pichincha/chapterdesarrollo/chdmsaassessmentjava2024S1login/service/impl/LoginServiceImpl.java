@@ -1,8 +1,7 @@
 package com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.impl;
 
-import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.repository.AssessmentUserRepository;
 import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.LoginService;
-import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.LoginRequest;
+import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.request.LoginRequest;
 import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.LoginResponse;
 import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.util.Constants;
 import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.util.JwtUtil;

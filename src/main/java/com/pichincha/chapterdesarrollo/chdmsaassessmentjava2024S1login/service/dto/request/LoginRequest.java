@@ -1,4 +1,4 @@
-package com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto;
+package com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;

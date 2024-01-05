@@ -1,12 +1,11 @@
 package com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.controller;
 
 import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.LoginService;
-import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.LoginRequest;
+import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.request.LoginRequest;
 import com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.service.dto.LoginResponse;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
