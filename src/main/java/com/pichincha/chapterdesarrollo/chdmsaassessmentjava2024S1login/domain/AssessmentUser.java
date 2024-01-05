@@ -1,10 +1,8 @@
 package com.pichincha.chapterdesarrollo.chdmsaassessmentjava2024S1login.domain;
 
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Data;
 
-import java.util.UUID;
 
 @Data
 @Entity
